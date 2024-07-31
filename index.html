@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Semantic and Deprecated Tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HTML5 Semantic and Deprecated Tags</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>New Semantic Tags</h2>
+
+            <article>
+                <h3><code>&lt;header&gt;</code></h3>
+                <p>This tag represents the header of a page or section. It usually contains introductory content or navigational links.</p>
+                <pre><code>&lt;header&gt;
+    &lt;h1&gt;Website Title&lt;/h1&gt;
+    &lt;nav&gt;...&lt;/nav&gt;
+&lt;/header&gt;</code></pre>
+            </article>
+
+            <article>
+                <h3><code>&lt;nav&gt;</code></h3>
+                <p>This tag is used for navigation links.</p>
+                <pre><code>&lt;nav&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;</code></pre>
+            </article>
+
+            <article>
+                <h3><code>&lt;main&gt;</code></h3>
+                <p>This tag represents the dominant content of the <code>&lt;body&gt;</code> of a document.</p>
+                <pre><code>&lt;main&gt;
+    &lt;h2&gt;Main Content&lt;/h2&gt;
+    &lt;p&gt;This is the main content of the page.&lt;/p&gt;
+&lt;/main&gt;</code></pre>
+            </article>
+
+            <article>
+                <h3><code>&lt;article&gt;</code></h3>
+                <p>This tag represents a self-contained piece of content that could be distributed and reused independently.</p>
+                <pre><code>&lt;article&gt;
+    &lt;h2&gt;Article Title&lt;/h2&gt;
+    &lt;p&gt;This is the content of the article.&lt;/p&gt;
+&lt;/article&gt;</code></pre>
+            </article>
+
+            <article>
+                <h3><code>&lt;section&gt;</code></h3>
+                <p>This tag represents a generic section of a document. It is used to group related content.</p>
+                <pre><code>&lt;section&gt;
+    &lt;h2&gt;Section Title&lt;/h2&gt;
+    &lt;p&gt;This is the content of the section.&lt;/p&gt;
+&lt;/section&gt;</code></pre>
+            </article>
+
+            <article>
+                <h3><code>&lt;aside&gt;</code></h3>
+                <p>This tag represents a section that is tangentially related to the content around it.</p>
+                <pre><code>&lt;aside&gt;
+    &lt;h3&gt;Related Information&lt;/h3&gt;
+    &lt;p&gt;This is additional information related to the main content.&lt;/p&gt;
+&lt;/aside&gt;</code></pre>
+            </article>
+
+            <article>
+                <h3><code>&lt;footer&gt;</code></h3>
+                <p>This tag represents the footer of a page or section. It typically contains copyright information, contact details, or site maps.</p>
+                <pre><code>&lt;footer&gt;
+    &lt;p&gt;&copy; 2024 Your Company&lt;/p&gt;
+    &lt;a href="privacy.html"&gt;Privacy Policy&lt;/a&gt;
+&lt;/footer&gt;</code></pre>
+            </article>
+
+            <article>
+                <h3><code>&lt;figure&gt;</code></h3>
+                <p>This tag represents any content that is referenced from the main content, such as images or diagrams.</p>
+                <pre><code>&lt;figure&gt;
+    &lt;img src="image.jpg" alt="Description of the image"&gt;
+    &lt;figcaption&gt;Image caption goes here.&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+            </article>
+
+            <article>
+                <h3><code>&lt;figcaption&gt;</code></h3>
+                <p>This tag provides a caption or description for a <code>&lt;figure&gt;</code> element.</p>
+                <pre><code>&lt;figcaption&gt;Image caption goes here.&lt;/figcaption&gt;</code></pre>
+            </article>
+
+            <article>
+                <h3><code>&lt;time&gt;</code></h3>
+                <p>This tag represents a specific time or date.</p>
+                <pre><code>&lt;time datetime="2024-07-31"&gt;July 31, 2024&lt;/time&gt;</code></pre>
+            </article>
+        </section>
+
+        <section>
+            <h2>Deprecated Tags</h2>
+
+            <article>
+                <h3><code>&lt;font&gt;</code></h3>
+                <p>This tag was used to change font attributes. CSS is recommended for styling.</p>
+                <pre><code>&lt;font color="red"&gt;Red Text&lt;/font&gt;</code></pre>
+            </article>
+
+            <article>
+                <h3><code>&lt;center&gt;</code></h3>
+                <p>This tag was used to center-align text or elements. CSS is recommended for alignment.</p>
+                <pre><code>&lt;center&gt;Centered Text&lt;/center&gt;</code></pre>
+            </article>
+
+            <article>
+                <h3><code>&lt;big&gt;</code></h3>
+                <p>This tag was used to make text larger. CSS is recommended for text size.</p>
+                <pre><code>&lt;big&gt;Big Text&lt;/big&gt;</code></pre>
+            </article>
+
+            <article>
+                <h3><code>&lt;strike&gt;</code></h3>
+                <p>This tag was used to apply a strikethrough to text. CSS is recommended for text decoration.</p>
+                <pre><code>&lt;strike&gt;Strikethrough Text&lt;/strike&gt;</code></pre>
+            </article>
+
+            <article>
+                <h3><code>&lt;u&gt;</code></h3>
+                <p>This tag was used to underline text. CSS is recommended for text decoration.</p>
+                <pre><code>&lt;u&gt;Underlined Text&lt;/u&gt;</code></pre>
+            </article>
+
+            <article>
+                <h3><code>&lt;b&gt;</code></h3>
+                <p>This tag was used to make text bold. CSS is recommended for text weight.</p>
+                <pre><code>&lt;b&gt;Bold Text&lt;/b&gt;</code></pre>
+            </article>
+
+            <article>
+                <h3><code>&lt;i&gt;</code></h3>
+                <p>This tag was used to italicize text. CSS is recommended for text style.</p>
+                <pre><code>&lt;i&gt;Italic Text&lt;/i&gt;</code></pre>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Company</p>
+    </footer>
+</body>
+</html>
